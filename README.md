@@ -9,7 +9,7 @@
 - 컴포넌트 간에 props 전달은 필요하지 않습니다.
 
 ```
-{import React from 'react';
+import React from 'react';
 
 function App() {
   return (
@@ -22,5 +22,5 @@ function App() {
 }
 
 export default App;
-}
+
 ```
