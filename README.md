@@ -1,8 +1,26 @@
-# React + Vite
+# Standard반 1차 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+내일배움캠프 Standard반 1차 과제 1번 문제
 
-Currently, two official plugins are available:
+## ☝ 요구사항
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 아래의 `App.jsx` 파일을 `Header.jsx`, `Content.jsx`, `Footer.jsx` 세 개의 파일로 분리하세요.
+- 각 컴포넌트는 단순히 UI만 렌더링합니다.
+- 컴포넌트 간에 props 전달은 필요하지 않습니다.
+
+```
+{import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>My Website</h1>
+      <p>Welcome to my website!</p>
+      <footer>© 2024 My Website</footer>
+    </div>
+  );
+}
+
+export default App;
+}
+```
