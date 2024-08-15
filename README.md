@@ -1,6 +1,6 @@
 # Standard반 1차 과제
 
-내일배움캠프 Standard반 1차 과제 1번 문제
+내일배움캠프 React Standard반 1차 과제 1번 문제
 
 ## ☝ 요구사항
 
